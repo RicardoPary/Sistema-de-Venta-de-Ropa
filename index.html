@@ -1,0 +1,173 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>BODA SKINS</title>
+
+<link rel="stylesheet"  href="css/index.css" />
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jssor.slider.mini.js"></script>
+
+
+ <script>
+        jQuery(document).ready(function ($) {            
+            var jssor_1_SlideoTransitions = [
+              [{b:5500,d:3000,o:-1,r:240,e:{r:2}}],
+              [{b:-1,d:1,o:-1,c:{x:51.0,t:-51.0}},{b:0,d:1000,o:1,c:{x:-51.0,t:51.0},e:{o:7,c:{x:7,t:7}}}],
+              [{b:-1,d:1,o:-1,sX:9,sY:9},{b:1000,d:1000,o:1,sX:-9,sY:-9,e:{sX:2,sY:2}}],
+              [{b:-1,d:1,o:-1,r:-180,sX:9,sY:9},{b:2000,d:1000,o:1,r:180,sX:-9,sY:-9,e:{r:2,sX:2,sY:2}}],
+              [{b:-1,d:1,o:-1},{b:3000,d:2000,y:180,o:1,e:{y:16}}],
+              [{b:-1,d:1,o:-1,r:-150},{b:7500,d:1600,o:1,r:150,e:{r:3}}],
+              [{b:10000,d:2000,x:-379,e:{x:7}}],
+              [{b:10000,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:9100,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:10000,d:1600,x:-200,o:-1,e:{x:16}}]
+            ];
+            
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+            
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+     });
+    </script>
+    
+
+</head>
+<body>
+
+
+
+
+<div id="Cabeza" >
+<table width="100%" height="41" cellpadding="0" cellspacing="0">
+<tr>
+<td width="12%">&nbsp;</td>
+<td width="15%"><img src="Imagenes/13393483_1093211020738020_1376898046_n.png" class="LogoUmsa"/></td>
+<td width="18%"><img src="Imagenes/mi_umsa.png" width="185"/></td>
+<td width="29%"><img src="Imagenes/olWgnuFE.png" width="283" height="94"/></td>
+<td width="11%"><img src="Imagenes/13393456_1093211647404624_2093289481_n.png" class="LogoAdmin""/></td>
+<td width="15%">&nbsp;</td>
+</tr>
+<tr></tr>
+<tr></tr>
+</table>
+</div>
+
+<div id="MenuGeneral">
+	<ul id="Menu">
+	        
+		  
+		   
+	       <li> <a href="RopaVaron.html">MEN</a></li>
+           <li> <a href="RopaMujer.html">WOMEN</a></li>
+           <li> <a href="Venta.html">SALE</a></li>     
+	</ul>
+</div> 
+
+
+
+<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden; visibility: hidden; margin-top:1px;">
+<div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1300px; height: 600px; overflow: hidden;">
+<div data-p="225.00" style="display: none;"> 
+<img data-u="image" src="Imagenes/fondo1.jpg" />
+<div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">
+La mejor ropa</div>
+</div>
+
+<div data-p="225.00" style="display: none;">
+<img data-u="image" src="Imagenes/fondo2.jpg" />
+<div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">
+Todo lo que Buscas</div>
+</div>
+
+<div data-p="225.00" data-po="80% 55%" style="display: none;">
+<img data-u="image" src="Imagenes/fondo19.png" /> 
+<div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">
+Elige a tu gusto</div>
+</div>
+
+<div data-p="225.00" data-po="80% 55%" style="display: none;">
+<img data-u="image" src="Imagenes/fondo4.jpg" /> 
+<div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">
+A tu estilo</div>
+</div>
+
+
+
+
+<div data-p="225.00" data-po="80% 55%" style="display: none;">
+<img data-u="image" src="Imagenes/fondo22.jpg" /> 
+<div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">
+Compra ya</div>
+</div>
+
+
+<div data-p="225.00" data-po="80% 55%" style="display: none;">
+<img data-u="image" src="Imagenes/fondo21.jpg" /> 
+<div style="position: absolute; top: 300px; left: 30px; width: 480px; height: 120px; font-size: 30px; color: #ffffff; line-height: 38px;">
+Para todos los tamaños</div>
+</div>
+
+
+
+<a data-u="ad" href="http://www.jssor.com" style="display:none">Bootstrap Slider</a></div>
+<div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+<div data-u="prototype" style="width:16px;height:16px;"></div>
+</div>
+<span data-u="arrowleft" class="jssora22l" style="top:0px;left:12px;width:40px;height:58px;" data-autocenter="2"></span> <span data-u="arrowright" class="jssora22r" style="top:0px;right:12px;width:40px;height:58px;" data-autocenter="2"></span> </div>
+  
+  
+<div style="width:100%; margin-top:1px">
+
+<video src="Videos/BodaSkins2.mp4"  preload   muted="muted" width="100%"  style="border:1px #CCCCCC solid;" autoplay loop="loop">
+  Tu navegador no implementa el elemento <code>video</code>.
+</video>
+
+<video src="Videos/BodaSkins.mp4"  preload  muted="muted"  width="100%"  style=" border:1px #CCCCCC solid;" autoplay loop="loop">
+  Tu navegador no implementa el elemento <code>video</code>.
+</video>
+
+<audio width="300" height="32" src="Videos/fondo.mp3" controls="controls" autoplay="autoplay" preload="preload"  style="visibility:hidden"  loop="loop">
+ 
+</audio>	
+</div> 
+
+<div style="font-family:Verdana, Arial, Helvetica, sans-serif; 
+color:#FFFFFF; 
+font-size:15px;" id="Cabeza2" align="center">
+Contactos +0591 75816644
+<br/> CARRERA DE ADMINISTRACION DE EMPRESAS
+<br/> AUTOR: EDWIN RONALD RAMOS QUISPE
+</div>
+
+
+
+</body>
+</html>
+
